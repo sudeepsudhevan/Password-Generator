@@ -7,7 +7,6 @@ const characters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", 
 let passElOne = document.getElementById("pass1")
 let passElTwo = document.getElementById("pass2")
 
-// console.log(randomIndex);
 
 let password_length = 15
 
