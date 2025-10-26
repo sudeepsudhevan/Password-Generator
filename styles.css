@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    margin: 65px;
+    background-color: #1c242f;
+    padding: 50px 50px 0 50px;
+    color: #f6f6f6;
+    border: 6px solid whitesmoke;
+    border-radius: 12px;
+}
+
+#title {
+    margin-bottom: 0px;
+}
+
+#title-span {
+    color: #51cf83;
+    display: block;
+}
+
+#password-btn {
+    margin: 30px 0 20px;
+    background-color: #128d60;
+    color: #ffffff;
+    padding: 7px 7px;
+    border: none;
+    border-radius: 3px;
+    width: 180px;
+}
+
+#gbox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 0;
+    border-top: 1px solid #232e40;
+}
+
+.pass-container{
+    width: 180px;
+    background-color: #232e40;
+    height: 30px;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.gpassword {
+    margin: 8px 0;
+    border-radius: 3px;
+    text-align: center;
+    color: #15b077;
+    font-size: 14px;
+}
